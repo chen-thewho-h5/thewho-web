@@ -171,8 +171,8 @@ export default {
       state.data = result[0];
       const targetConfig = result[0].pageConfig;
       state.name = result[0].name;
-      state.url = `http://admin.coco-h5.cn/api/static/index.html?isEdit=true`;
-      state.showUrl = `https://admin.coco-h5.cn/api/static/index.html`;
+      state.url = `http://aaa.coco-h5.cn:8081/?isEdit=true`;
+      state.showUrl = `http://aaa.coco-h5.cn:8081`;
       dispatch('returnConfig', {
         targetConfig: targetConfig,
         pageData: state.data,
